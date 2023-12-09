@@ -1,0 +1,13 @@
+Briefly explain in at most three sentences what you see in the plot.
+
+=>Answer:
+The visualization plot shows how the word vectors are distributed in a 2D space, where each word is represented by a point in the plot. The distance between the vectors indicates the semantic similarity between the words, with similar words clustered together and dissimilar words farther apart. However, since word vectors have high-dimensional vector representations, projecting them into a 2D space can result in some loss of information as not all of the dimensions are represented in the visualization (reason why "man" and "male" far from each other).
+
+##########
+How I use Chat-GPT for the assignment
+
+-I use it in "Problem 3" to understand how graph-based and transition-based work as well as the differences and the advantages to answer the question
+-In the Coding part, I use it to:
++learn some numpy function (Ex: np.exp, np.dot, ...)
++know how to apply the equations that I have demonstrated in Problem 1 using python
++visualize the vector, matrix multiplication so that I can replace the variables in the Problem 1 with matrix and vector (Ex: reshape(), ...)
